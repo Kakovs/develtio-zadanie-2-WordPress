@@ -14,28 +14,28 @@
   <body <?php body_class(); ?>>
 
 	<header>
-			<div class="container">
-				<nav>
-					<div class="headerLogo">
-						<a href="#">
-							<img src="/develtio-zadanie-2-WordPress/wp-content/uploads/2022/06/Group-27.png" alt="">
-						</a>
-					</div>
+		<div class="container">
+			<nav>
+				<div class="headerLogo">
+					<a href="#">
+						<img src="/develtio-zadanie-2-WordPress/wp-content/uploads/2022/06/Group-27.png" alt="">
+					</a>
+				</div>
 
-					<input class="checkbox" type="checkbox" name="" id="" />
-					<div class="hamburger-lines">
-						<span class="line line1"></span>
-						<span class="line line2"></span>
-						<span class="line line3"></span>
-					</div> 
-					<div class="mainMenu">
-						<a href="#">o nas</a>
-						<a href="#">oferta</a>
-						<a href="#">towarzystwa ubezpieczeń</a>
-						<a href="#">dołącz do nas</a>
-						<a href="#">przydatne materiały</a>
-						<a href="#">oddziały</a>
-					</div>
-				</nav>
-			</div>
-		</header>
+				<input class="checkbox" type="checkbox" name="" id="" />
+				<div class="hamburger-lines">
+					<span class="line line1"></span>
+					<span class="line line2"></span>
+					<span class="line line3"></span>
+				</div> 
+				<div class="mainMenu">
+					<a href="#">o nas</a>
+					<a href="#">oferta</a>
+					<a href="#">towarzystwa ubezpieczeń</a>
+					<a href="#">dołącz do nas</a>
+					<a href="#">przydatne materiały</a>
+					<a href="#">oddziały</a>
+				</div>
+			</nav>
+		</div>
+	</header>
