@@ -308,7 +308,7 @@
     .formHomeBaner  .wpcf7 form .wpcf7-response-output{
         position: relative;
     }
-}
+
 
 @media (max-width: 768px){
     .titleHomeBaner{
@@ -328,6 +328,7 @@
 }
 
 @media (max-width: 480px){
+
     .titleHomeBaner,
     .title{
         font-size: 36px;
