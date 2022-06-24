@@ -2,7 +2,7 @@
 /**
  * The template for displaying search result pages.
  *
- * 
+ *
  */
 
 get_header(); ?>
