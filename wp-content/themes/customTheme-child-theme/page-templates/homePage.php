@@ -48,5 +48,6 @@ get_header();
             <img src="/develtio-zadanie-2-WordPress/wp-content/uploads/2022/06/shutterstock_373266265.png" alt="">
         </div>
     </section>
+
 <?php
 get_footer();
