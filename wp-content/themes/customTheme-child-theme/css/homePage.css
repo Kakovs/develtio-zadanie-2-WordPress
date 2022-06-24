@@ -8,6 +8,7 @@
 .homeBanerSectionBackground{
     height: calc(100vh - 114px);
     max-height: 732px;
+    min-height: 732px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -296,6 +297,10 @@
 }
 
 @media (max-width: 991px){
+    .homeBanerSectionBackground{
+        min-height: unset;
+    }
+    
     .contactFormHomeBaner{
         position: relative;
         right: unset;
@@ -308,7 +313,7 @@
     .formHomeBaner  .wpcf7 form .wpcf7-response-output{
         position: relative;
     }
-
+}
 
 @media (max-width: 768px){
     .titleHomeBaner{
