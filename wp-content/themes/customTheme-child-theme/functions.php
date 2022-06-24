@@ -75,4 +75,3 @@ add_action( 'wp_enqueue_scripts', 'orbisius_ct_customtheme_child_theme_child_the
 function orbisius_ct_customtheme_child_theme_example_function() {
     // put some code here
 }
-

@@ -128,11 +128,11 @@ header a{
         transform-origin: 0% 0%;
         transition: transform 0.4s ease-in-out;
     }
-    
+
     header .hamburger-lines .line2 {
         transition: transform 0.2s ease-in-out;
     }
-    
+
     header .hamburger-lines .line3 {
         transform-origin: 0% 100%;
         transition: transform 0.4s ease-in-out;
@@ -152,11 +152,11 @@ header a{
         justify-content: flex-start;
         align-items: flex-start;
         transition: transform 0.5s ease-in-out;
+        z-index: 101;
     }
 
     header input[type="checkbox"]:checked ~ .mainMenu{
         transform: translateX(0);
-        
     }
 
     header input[type="checkbox"]:checked ~ .hamburger-lines .line{
@@ -174,19 +174,12 @@ header a{
     header input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
         transform: rotate(45deg);
     }
-      
+
     header input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
         transform: scaleY(0);
     }
-      
+
     header input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         transform: rotate(-45deg);
     }
-      
-
-
-
-
-
-
 }

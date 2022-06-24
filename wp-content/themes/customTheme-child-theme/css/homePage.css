@@ -193,8 +193,6 @@
 
 
 
-
-
 /* second section */
 
 
@@ -297,8 +295,6 @@
     }
 }
 
-
-
 @media (max-width: 991px){
     .contactFormHomeBaner{
         position: relative;
@@ -332,7 +328,6 @@
 }
 
 @media (max-width: 480px){
-
     .titleHomeBaner,
     .title{
         font-size: 36px;
