@@ -1,4 +1,5 @@
 <?php
+
 register_nav_menus( array(
     'menu-1' => __( 'Primary Menu', 'my-custom-theme' ),
 );
@@ -26,5 +27,3 @@ add_theme_support( 'post-thumbnails' );
 add_image_size( 'my-custom-image-size', 640, 999 );
 
 the_post_thumbnail( 'my-custom-image-size' );
-
-
