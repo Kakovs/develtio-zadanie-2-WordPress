@@ -1,0 +1,281 @@
+/* baner section */
+
+#homeBanerSection{
+    position: relative;
+}
+
+.homeBanerSectionBackground{
+    height: calc(100vh - 114px);
+    max-height: 732px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#homeBanerSection .blueBackground{
+    background-color: rgba(28, 62, 149, 0.75);
+    padding: 44px 0 64px;
+}
+
+.titleHomeBaner{
+    font-size: 52px;
+    font-weight: 700;
+    color: #FE7A22;
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+
+.subTitleHomeBaner{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.contactFormHomeBaner{
+    position: absolute;
+    background-color: #fff;
+    bottom: 64px;
+    right: calc(50% - 660px);
+    padding: 40px!important;
+    border-radius: 10px;
+    width: 100%!important;
+    max-width: 490px!important;
+}
+
+.titleContactFormHomeBaner{
+    color: #1C3E95;
+    font-size: 24px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.formHomeBaner{
+    padding: 0!important;
+}
+
+.formHomeBaner .formRow{
+    margin: 6px 0;
+}
+
+.formHomeBaner .formRow input{
+    width: 100%;
+    border: 1px solid #979494;
+    font-size: 17px;
+    line-height: 1.3;
+    color: rgba(22, 22, 22, 0.7);
+    padding: 12px;
+}
+
+.formHomeBaner .formRow input::placeholder{
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.formHomeBaner .formCheckbox label{
+    position: relative;
+    padding-left: 31px;
+    margin-top: 6px;
+}
+
+.formHomeBaner .formCheckbox label input{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 0;
+    border-radius: 0;
+    top: 5px;
+}
+
+.formHomeBaner .formCheckbox label span{
+    font-size: 13px;
+    font-weight: 300;
+    display: block;
+    color: rgba(22, 22, 22, 0.5);
+    margin-bottom: 16px;
+}
+
+.formHomeBaner .formCheckbox .wpcf7-list-item{
+    margin-left: 0;
+}
+
+.formHomeBaner .formButton{
+    text-align: center;
+}
+
+.formHomeBaner .formButton input{
+    width: 100%;
+    max-width: 205px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+    background-color: #FE7A22;
+    transition: 0.3s;
+    color: #fff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.formHomeBaner .formButton input:hover{
+    background-color: #E95A1B;
+}
+
+.formTwoColLeft{
+    padding-right: 6px!important;
+}
+
+.formTwoColRight{
+    padding-left: 6px!important;
+}
+
+
+
+/* second section */
+
+
+
+#homeInformationSection{
+    padding: 72px 0 96px;
+    position: relative;
+}
+
+#homeInformationSection .container{
+    position: relative;
+    z-index: 10;
+}
+
+.title{
+    font-size: 63px;
+    font-weight: 700;
+    color: #1C3E95;
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+
+.subTitle{
+    font-size: 34px;
+    font-weight: 700;
+    color: #1C3E95;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+#homeInformationSection .globalText{
+    margin-bottom: 10px;
+}
+
+.orangeButton{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    padding: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    background-color: #FE7A22;
+    border: none;
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 280px;
+    display: block;
+    text-align: center;
+}
+
+.orangeButton:hover{
+    background-color: #E95A1B;
+    color: #fff;
+}
+
+#homeInformationSection .orangeButton{
+    margin-top: 56px;
+}
+
+.sideBackground{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+
+/* mobile */
+
+
+
+@media (max-width: 1399px){
+    .contactFormHomeBaner{
+        right: calc(50% - 570px);
+    }
+}
+
+@media (max-width: 1199px){
+    .contactFormHomeBaner{
+        right: calc(50% - 480px);
+    }
+
+    #homeInformationSection{
+        padding-bottom: 0;
+    }
+
+    .sideBackground{
+        position: relative;
+        padding-top: 300px;
+    }
+
+    .sideBackground img{
+        position: absolute;
+        width: auto;
+        height: 380px;
+        right: 0px;
+        bottom: 0;
+    }
+}
+
+
+
+@media (max-width: 991px){
+    .contactFormHomeBaner{
+        position: relative;
+        right: unset;
+        bottom: unset;
+        margin: auto;
+        max-width: 80%!important;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .titleHomeBaner{
+        font-size: 42px;
+    }
+
+    .title{
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 575px){
+    .contactFormHomeBaner{
+        max-width: 100%!important;
+        padding: 40px 12px!important;
+    }
+}
+
+@media (max-width: 480px){
+
+    .titleHomeBaner,
+    .title{
+        font-size: 36px;
+    }
+
+    .subTitleHomeBaner,
+    .subTitle{
+        font-size: 24px;
+    }
+}
