@@ -24,11 +24,9 @@ get_header();
         </div>
         <div class="contactFormHomeBaner">
             <h3 class="titleContactFormHomeBaner">Podaj dane kontaktowe, a my przygotujemy najlepszą ofertę</h3>
-            <form id="userForm" onsubmit="return doForm()">
-                <div class="formHomeBaner container">
-                    <?php echo do_shortcode('[contact-form-7 id="9" title="Contact form"]'); ?>
-                </div>
-            </form>
+            <div class="formHomeBaner container">
+                <?php echo do_shortcode('[contact-form-7 id="9" title="Contact form" ]'); ?>
+            </div>
         </div>
     </section>
 
