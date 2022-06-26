@@ -10,11 +10,18 @@ header nav{
     justify-content: space-between;
 }
 
-header .mainMenu{
+header .mainMenu ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-bottom: 0;
+    padding-left: 0;
+    height: 100%;
+}
+
+header .mainMenu li::marker{
+    content: none;
 }
 
 header .mainMenu a{
@@ -151,11 +158,14 @@ header a{
         width: 100%;
         height: auto;
         transform: translateX(-150%);
+        transition: transform 0.5s ease-in-out;
+        z-index: 101;
+    }
+
+    header .mainMenu ul{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        transition: transform 0.5s ease-in-out;
-        z-index: 101;
     }
 
     header input[type="checkbox"]:checked ~ .mainMenu{

@@ -28,14 +28,11 @@
 					<span class="line line2"></span>
 					<span class="line line3"></span>
 				</div>
-				<div class="mainMenu">
-					<a href="#">o nas</a>
-					<a href="#">oferta</a>
-					<a href="#">towarzystwa ubezpieczeń</a>
-					<a href="#">dołącz do nas</a>
-					<a href="#">przydatne materiały</a>
-					<a href="#">oddziały</a>
-				</div>
+				<?php
+				wp_nav_menu( array( 
+					'theme_location' => 'main-menu', 
+					'container_class' => 'mainMenu ' ) ); 
+				?>
 			</nav>
 		</div>
 	</header>

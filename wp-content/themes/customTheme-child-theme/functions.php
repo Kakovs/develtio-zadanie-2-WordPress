@@ -75,3 +75,10 @@ add_action( 'wp_enqueue_scripts', 'orbisius_ct_customtheme_child_theme_child_the
 function orbisius_ct_customtheme_child_theme_example_function() {
     // put some code here
 }
+
+// add navigation menu
+
+function wpb_custom_new_menu() {
+	register_nav_menu('main-menu',__( 'Main Menu' ));
+  }
+  add_action( 'init', 'wpb_custom_new_menu' );
