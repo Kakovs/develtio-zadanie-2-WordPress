@@ -6,9 +6,7 @@
 }
 
 .homeBanerSectionBackground{
-    height: calc(100vh - 114px);
-    max-height: 732px;
-    min-height: 732px;
+    height: 732px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -298,13 +296,14 @@
 
 @media (max-width: 991px){
     .homeBanerSectionBackground{
-        min-height: unset;
+        height: calc(100vh - 100px);
+        max-height: 732px;
     }
-    
+
     .contactFormHomeBaner{
         position: relative;
         right: unset;
-        bottom: unset;
+        top: unset;
         margin: auto;
         max-width: 80%!important;
         margin-top: 20px;
@@ -312,6 +311,10 @@
 
     .formHomeBaner  .wpcf7 form .wpcf7-response-output{
         position: relative;
+    }
+
+    #homeInformationSection{
+        padding-top: 20px;
     }
 }
 

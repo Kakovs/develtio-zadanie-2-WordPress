@@ -33,7 +33,7 @@ get_header();
     <section id="homeInformationSection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-7 col-lg-12">
+                <div class="textInformation col-xl-7 col-lg-12">
                     <h2 class="title">Ubezpieczenia majątkowe</h2>
                     <h4 class="subTitle">Co obejmują?</h4>
                     <p class="globalText"><b>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</b></p>
